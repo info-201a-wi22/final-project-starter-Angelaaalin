@@ -15,6 +15,7 @@ show_global_temp <- function() {
                        select(year, year_ave) %>% unique()
   
   ggplot(year_average_temp, aes(as.numeric(year), year_ave)) + geom_point() + 
+    geom_smooth() +
     labs(x = "Year", y = "Year Average Temperature(Celsius)", title = "Global Average Temperature") + 
     theme_classic()
 } 
