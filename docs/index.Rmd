@@ -6,6 +6,10 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+install.packages("gridExtra")
+library("ggplot2")
+library("dplyr")
+library("gridExtra")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -29,6 +33,20 @@ data_access_test()
 ```{r}
 # Example 1: This function was "sourced" above
 msg <- data_access_test(" Morgan!")
+```
+
+### global temperature and emissions overview
+```{r}
+source("../source/Global_temperature_Overview.R")
+
+show_global_temp()
+
+```
+
+### global CO2 emissions overview
+```{r}
+source("../source/CO_Emissions_Overview.R")
+show_global_CO2_emission()
 ```
 
 > `r msg` Hope you have a good day!! 
