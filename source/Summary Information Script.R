@@ -9,8 +9,6 @@ temp_by_state <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperat
 temp_by_country <- read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_city <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByMajorCity.csv", header = TRUE, stringsAsFactors = FALSE)
 c_emission <- read.csv(file = "../data/annual-co-emissions-by-region.csv", header = TRUE, stringsAsFactors = FALSE)
-View(temp_by_state)
->>>>>>> 124e083f9e8e85ad875138fc191aa3ff1bec0448
 
 #Change of global average land temperature from 18th century to 19th century#
 temp_18 <- global_temp %>% 
@@ -48,7 +46,6 @@ temp_after_2000 <- temp_by_country %>%
 ave_temp_2000 <- mean(temp_after_2000$ave_temp, na.rm = TRUE)
 
 #Entity with highest average annual CO2 emission#
-<<<<<<< HEAD
 max_CO2 <- c_emission %>%
   group_by(Entity) %>%
   filter(Entity != "World" ) %>%
@@ -84,8 +81,6 @@ summary_info <- list(
   "Entity with highest CO2 emission" = max_CO2, 
   "City with highest average temperature in the mosr recent year" = highest_temp_city, 
   "State with highest average temperature in 21th century" = highest_temp_state)
-
-print(summary_info)
 
 
 
