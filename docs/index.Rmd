@@ -1,6 +1,6 @@
 ---
 title: "Your Project Title"
-author: "project team members"
+author: "Angela Lin，Ningrui Yang，Yujia Zhai，Ruyi Liu"
 date: "1/22/2022"
 output: html_document
 ---
@@ -19,24 +19,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Please see Canvas for more details.
 
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
+### us average temperature and co2 emission from 1990 to 2010
+This table shows the average temperature of US and its co2 emission from 1990 to 2010. From this table, we found that from 1990 to 2010 the average temperature in US was increasing, and the carbon emission was also increasing at the same time.
+```{r table source, echo=FALSE, message=FALSE, warning=FALSE}
+source("../source/Aggregate Table Script.R")
+
+us_temp_co2
 ```
 
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
 
 ### global temperature and emissions overview
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/Global_temperature_Overview.R")
 
 show_global_temp()
@@ -44,7 +37,7 @@ show_global_temp()
 ```
 
 ### global CO2 emissions overview
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/CO_Emissions_Overview.R")
 show_global_CO2_emission()
 ```
@@ -57,16 +50,4 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
