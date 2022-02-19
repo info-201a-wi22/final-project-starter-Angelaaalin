@@ -26,6 +26,9 @@ This script shows several values that we analyzed from our data. We found that t
 ```{r table source, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/Summary Information Script.R")
 
+summary_info
+```
+
 ### us average temperature and co2 emission from 1990 to 2010
 This table shows the average temperature of US and its co2 emission from 1990 to 2010. From this table, we found that from 1990 to 2010 the average temperature in US was increasing, and the carbon emission was also increasing at the same time.
 ```{r table source, echo=FALSE, message=FALSE, warning=FALSE}
