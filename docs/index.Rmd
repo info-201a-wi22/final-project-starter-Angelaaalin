@@ -19,6 +19,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Please see Canvas for more details.
 
+### Summary information
+
+This script shows several values that we analyzed from our data. We found that the global average temperature change from the 18th century to the 19th century is -0.1939273, from the 19th century to the 20th century is 0.6286067, and from the 20th century to the 21st century is 0.9043821. We also found that the average temperature of countries after 2000 is 19.51453, the entity with the highest CO2 emission is Asia, the city with the highest average temperature in the most recent year in the dataset is Umm Durman. The state with the highest average temperature in the 21st century is Puducherry, India.
+```{r table source, echo=FALSE, message=FALSE, warning=FALSE}
+source("../source/Summary Information Script.R")
+
 ### us average temperature and co2 emission from 1990 to 2010
 This table shows the average temperature of US and its co2 emission from 1990 to 2010. From this table, we found that from 1990 to 2010 the average temperature in US was increasing, and the carbon emission was also increasing at the same time.
 ```{r table source, echo=FALSE, message=FALSE, warning=FALSE}
@@ -42,12 +48,10 @@ source("../source/CO_Emissions_Overview.R")
 show_global_CO2_emission()
 ```
 
-> `r msg` Hope you have a good day!! 
+> `r msg` Hope you have a good day!!
 
-## ABOUT THIS FILE: 
+## ABOUT THIS FILE:
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-
