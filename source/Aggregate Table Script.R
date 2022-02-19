@@ -1,8 +1,11 @@
 # Aggregate Table Script #
 # Read data #
-by_country <-read.csv(file = "data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv",
+library("dplyr")
+library("stringr")
+
+by_country <-read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv",
                       header = TRUE, stringsAsFactors = FALSE)
-co_emission <- read.csv(file = "data/annual-co-emissions-by-region.csv",
+co_emission <- read.csv(file = "../data/annual-co-emissions-by-region.csv",
                         header = TRUE, stringsAsFactors = FALSE)
 #Aggregate Table#
 #USA from 1990 to 2010 average temperature and emission of co2 by year#
