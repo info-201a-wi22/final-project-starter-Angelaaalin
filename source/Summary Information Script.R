@@ -4,14 +4,6 @@ library("tidyverse")
 library("dplyr")
 
 #Read data#
-<<<<<<< HEAD
-global_temp <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
-temp_by_state <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
-temp_by_country <- read.csv("https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv", header = TRUE, stringsAsFactors = FALSE)
-temp_by_city <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByMajorCity.csv", header = TRUE, stringsAsFactors = FALSE)
-c_emission <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/annual-co-emissions-by-region.csv", header = TRUE, stringsAsFactors = FALSE)
-View(c_emission)
-=======
 global_temp <- read.csv(file = "../data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_state <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_country <- read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv", header = TRUE, stringsAsFactors = FALSE)
