@@ -18,7 +18,7 @@ state_shape <- map_data("state") %>%
   left_join(new_data, by = "State")
   
 # Draw the map setting the 'fill' of the each state using its average temperature
-ggplot(state_shape) +
+map <- ggplot(state_shape) +
   geom_polygon(
     mapping = aes(x = long, y = lat, group = group, fill = AverageTemperature),
     color = "white",
@@ -27,3 +27,5 @@ ggplot(state_shape) +
   coord_map() +
   scale_fill_continuous(low = "#132B43", high = "Red") +
   labs(fill = "Average Temperature") 
+
+map
