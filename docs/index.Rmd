@@ -6,10 +6,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-install.packages("gridExtra")
 library("ggplot2")
 library("dplyr")
-library("gridExtra")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -41,18 +39,16 @@ us_temp_co2
 ### global temperature and emissions overview
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/Global_temperature_Overview.R")
-
 show_global_temp()
-
 ```
+The purpose of this chart is to give an overview of changing of the global temperature from 1750 to 2015. each point represents the mean global temperature of the year. Some land average temperature data are missing before age 1754; thus, the observations before 1754 were removed. The ocean temperature data was not recorded until approximately 1850. The early land average temperature data were widely spread; however, the more recent data of both land and land-ocean data show a strong positive correlation with time. It may imply that the global temperature has been increasing over the past centuries. 
 
 ### global CO2 emissions overview
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/CO_Emissions_Overview.R")
 show_global_CO2_emission()
 ```
-
-> `r msg` Hope you have a good day!!
+This chart shows the change in total global carbon dioxide emissions with respect to the year. This chart is intended to help answer the first research question, "is climate change caused by humans?" The chart shows a surge in global CO2 emission in the twentieth century. 
 
 ## ABOUT THIS FILE:
 

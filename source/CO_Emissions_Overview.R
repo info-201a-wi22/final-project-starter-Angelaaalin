@@ -10,8 +10,8 @@ show_global_CO2_emission <- function() {
               mutate(sum_of_year = sum(Annual.CO2.emissions..zero.filled.)) %>% 
               select(Year, sum_of_year) %>% unique()
   
-  ggplot(year_sum, aes(as.numeric(Year), sum_of_year, fill = "red")) + 
+  ggplot(year_sum, aes(as.numeric(Year), sum_of_year, fill = "sum of year")) + 
     geom_area() + 
-    labs(x = "year", y = "Global CO2 Emissions", title = "Annual Global CO2 Emission", fill = "CO2 Emission") +
+    labs(x = "year", y = "Global CO2 Emissions (tones)", title = "Annual Global CO2 Emission", fill = "CO2 Emission") +
     theme_classic()
 }
