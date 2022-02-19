@@ -28,4 +28,3 @@ map <- ggplot(state_shape) +
   scale_fill_continuous(low = "#132B43", high = "Red") +
   labs(fill = "Average Temperature") 
 
-map
