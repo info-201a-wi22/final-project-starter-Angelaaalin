@@ -82,6 +82,7 @@ summary_info <- list(
   "Entity with highest CO2 emission" = max_CO2, 
   "City with highest average temperature in the mosr recent year" = highest_temp_city, 
   "State with highest average temperature in 21th century" = highest_temp_state)
+
 print(summary_info)
 
 
