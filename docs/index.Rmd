@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This script shows several values that we analyzed from our data. We found that the global average temperature change from the 18th century to the 19th century is -0.1939273, from the 19th century to the 20th century is 0.6286067, and from the 20th century to the 21st century is 0.9043821. We also found that the average temperature of countries after 2000 is 19.51453, the entity with the highest CO2 emission is Asia, the city with the highest average temperature in the most recent year in the dataset is Umm Durman. The state with the highest average temperature in the 21st century is Puducherry, India.
 
-```{r table source, echo=FALSE, message=FALSE, warning=FALSE}
+```{r summary source, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/Summary Information Script.R")
 
 summary_info

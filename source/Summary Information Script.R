@@ -4,12 +4,21 @@ library("tidyverse")
 library("dplyr")
 
 #Read data#
+<<<<<<< HEAD
 global_temp <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_state <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_country <- read.csv("https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_city <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByMajorCity.csv", header = TRUE, stringsAsFactors = FALSE)
 c_emission <- read.csv(file = "https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/annual-co-emissions-by-region.csv", header = TRUE, stringsAsFactors = FALSE)
 View(c_emission)
+=======
+global_temp <- read.csv(file = "../data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
+temp_by_state <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
+temp_by_country <- read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv", header = TRUE, stringsAsFactors = FALSE)
+temp_by_city <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByMajorCity.csv", header = TRUE, stringsAsFactors = FALSE)
+c_emission <- read.csv(file = "../data/annual-co-emissions-by-region.csv", header = TRUE, stringsAsFactors = FALSE)
+View(temp_by_state)
+>>>>>>> 124e083f9e8e85ad875138fc191aa3ff1bec0448
 
 #Change of global average land temperature from 18th century to 19th century#
 temp_18 <- global_temp %>% 
@@ -47,10 +56,15 @@ temp_after_2000 <- temp_by_country %>%
 ave_temp_2000 <- mean(temp_after_2000$ave_temp, na.rm = TRUE)
 
 #Entity with highest average annual CO2 emission#
+<<<<<<< HEAD
 max_CO2 <- c_emission %>%
   group_by(Entity) %>%
   filter(Entity != "World" ) %>%
   summarise(ave_CO2_emission = mean(Annual.CO2.emissions..zero.filled., na.rm = TRUE)) %>%
+=======
+max_CO2 <- average_CO2 %>%
+  filter(Entity != "World") %>%
+>>>>>>> 124e083f9e8e85ad875138fc191aa3ff1bec0448
   filter(ave_CO2_emission == max(ave_CO2_emission, na.rm = TRUE)) %>%
   pull(Entity)
 
