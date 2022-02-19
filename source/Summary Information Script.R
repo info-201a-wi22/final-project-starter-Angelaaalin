@@ -61,10 +61,6 @@ max_CO2 <- c_emission %>%
   group_by(Entity) %>%
   filter(Entity != "World" ) %>%
   summarise(ave_CO2_emission = mean(Annual.CO2.emissions..zero.filled., na.rm = TRUE)) %>%
-=======
-max_CO2 <- average_CO2 %>%
-  filter(Entity != "World") %>%
->>>>>>> 124e083f9e8e85ad875138fc191aa3ff1bec0448
   filter(ave_CO2_emission == max(ave_CO2_emission, na.rm = TRUE)) %>%
   pull(Entity)
 
