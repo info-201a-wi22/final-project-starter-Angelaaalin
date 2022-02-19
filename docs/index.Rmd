@@ -1,5 +1,5 @@
 ---
-title: "Your Project Title"
+title: "Relationship between global temperature and carbon emission"
 author: "Angela Lin，Ningrui Yang，Yujia Zhai，Ruyi Liu"
 date: "1/22/2022"
 output: html_document
@@ -49,6 +49,13 @@ source("../source/CO_Emissions_Overview.R")
 show_global_CO2_emission()
 ```
 This chart shows the change in total global carbon dioxide emissions with respect to the year. This chart is intended to help answer the first research question, "is climate change caused by humans?" The chart shows a surge in global CO2 emission in the twentieth century. 
+
+### average temperature in the U.S overview
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+source("../source/U.S_Temperature_Overview.R")
+map
+```
+This is a choropleth map of average temperature of the U.S by state. This chart shows the difference of average temperature in each state of the U.S. This intend to help people have a overview about the average temperature in America and find the reason why different places will have different temperature like development or population.
 
 ## ABOUT THIS FILE:
 
