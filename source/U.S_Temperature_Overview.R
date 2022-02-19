@@ -5,7 +5,6 @@ library("mapproj")
 
 # Read data
 temp_by_state <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
-View(temp_by_state)
 
 # Select the latest data of average temperature in the U.S
 new_data <- temp_by_state %>%
