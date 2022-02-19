@@ -1,7 +1,4 @@
 # Load packages
-install.packages("ggplot2")
-install.packages("dplyr")
-install.packages("mapproj")
 library("ggplot2")
 library("dplyr")
 library("mapproj")
