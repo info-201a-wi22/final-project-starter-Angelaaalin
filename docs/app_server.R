@@ -1,0 +1,51 @@
+# Read data & Library
+library("shiny")
+library("dplyr")
+library("ggplot2")
+library("plotly")
+library("stringr")
+#Page1
+co2 <- read.csv("../data/annual-co-emissions-by-region.csv", header = TRUE, 
+                stringsAsFactors = FALSE)
+co2 <- co2 %>% 
+  filter( Entity %in% c("World", "Asia", "Europe", 
+                        "Africa","South America", 
+                        "North America","Oceania"))
+
+#Page2
+globaltemp <- read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv",
+                       header = TRUE, stringsAsFactors = FALSE)
+globaltemp7 <- globaltemp %>% 
+  filter( Country %in% c("United States","Canada","China","Japan", 
+                         "Australia","France", "Brazil")) %>% 
+  select(-AverageTemperatureUncertainty)
+as.Date(globaltemp7$dt) 
+globaltemp7 <- globaltemp7 %>% 
+  filter(str_detect(globaltemp7$dt, "01-01") == TRUE) %>% 
+  filter( dt >= "1900-01-01")
+
+
+server <- function(input,output){
+#plot1 
+  output$plot1 <- renderPlotly({
+    co2 <- co2 %>% 
+      filter( Year >= input$year[1], 
+              Year <= input$year[2])
+    plot1 <- ggplot(data = co2)+
+      geom_point(mapping = aes(x = Year, 
+                               y = Annual.CO2.emissions..zero.filled.,
+                               color = Entity))+
+      labs( x = "Year", y = "Emission", color = "Region")
+  })
+
+#plot2
+ output$plot2 <- renderPlotly({
+   globaltemp7 <- globaltemp7 %>% 
+     filter(Country == input$country)
+   plot2 <- ggplot(data = globaltemp7)+
+     geom_point(mapping = aes(x = dt,
+                            y = AverageTemperature))+
+     labs( x = "Date", y = "Average Temperature")
+ })
+}
+
