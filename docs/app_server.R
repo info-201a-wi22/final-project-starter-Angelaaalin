@@ -26,7 +26,7 @@ globaltemp7 <- globaltemp7 %>%
   filter( dt >= "1900-01-01")
 
 #Page3
-df <- read.csv("https://media.githubusercontent.com/media/info-201a-wi22/final-project-starter-Angelaaalin/main/data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv",
+df <- read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv",
                header = TRUE, stringsAsFactors = FALSE)
 temp_state <- df %>%
   filter(State %in% c("Washington", "California", "New York", "Texas",
