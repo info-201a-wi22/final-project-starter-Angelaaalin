@@ -4,23 +4,23 @@ report_page <- tabPanel(
   "Report",
   titlePanel("Report"),
   mainPanel(
-    p("Project Title:"),
+    p(strong("Project Title"),":"),
     p("Relationship between global temperature and carbon emission "),
-    p("Authors:"),
+    p(strong("Authors"),":"),
     p("Angela Lin, alin28@uw.edu; Ningrui Yang, yangning@uw.edu; 
       Yujia Zhai, yzhai@uw.edu; Ruyi Liu, rliu3@uw.edu"),
-    p("Affiliation:"),
+    p(strong("Affliation"),":"),
     p("INFO-201: Technical Foundations of Informatics - 
     The Information School - University of Washington"),
-    p("Date: Winter 2022"),
-    p("Abstract:"),
+    p(strong("Date"),": Winter 2022"),
+    p(strong("Abstract"),":"),
     p("Our main question is how the emission of CO2 influences the 
     earth's temperature. This question is important because environmental 
     problems caused by climate change affect our daily life. Finally there 
     will be more natural disasters. To address the question, we will make use of
     the dataset: Climate Change, and analyze how the temperature changed overtime."),
     p("Keywords: climate change, temperature, emission, development"),
-    p("1.0 Introduction:"),
+    p(strong("1.0 Introduction"),":"),
     p("Our project is to investigate the relationship between global temperature 
     and carbon emission. We will use the data about carbon dioxide emission and 
     average annual temperature to discuss the possible factors. We will analyze
@@ -32,7 +32,7 @@ report_page <- tabPanel(
     project can help us clarify how carbon dioxide affects global temperature, 
     increase awareness of climate change, and demonstrate the solutions for 
     decreasing global warming. "),
-    p("2.0 Design Situation:"),
+    p(strong("2.0 Design Situation"),":"),
     p("1. The concern of the topic is climate change, which is related to the 
       environment study domain. The key elements in this topic are the emission 
       of CO2, temperature change and global impact. The climate change topic is 
@@ -77,7 +77,7 @@ report_page <- tabPanel(
             show that, up to a certain point, crops and other plants grow better
             in the presence of higher carbon dioxide levels and seem to be more 
             drought-tolerant."),
-    p("3.0 Research questions:"),
+    p(strong("3.0 Research Question"),":"),
     p("1. Is climate change caused by humans?"),
     p("2. How has global warming affected the world so far?"),
     p("3. Will the actions we take today be enough to forestall the direct 
@@ -92,7 +92,7 @@ report_page <- tabPanel(
       know that people's activities are the major factor of climate change. 
       Therefore, whether the actions we have taken are useful to address the 
       environment problems is really important."),
-    p("4.0 The Dataset:"),
+    p(strong("4.0 The DataSet"),":"),
     p("We have found two credible datasets that are potentially 
       useful to us. One is the global land temperature data which we obtained from
       Kagglen online community for data scientists. It contains the temperature 
@@ -131,7 +131,7 @@ report_page <- tabPanel(
       cement production which do not account for emissions embedded in traded 
       goods and do not include the 'Statistical differences' column.
       (Ritchie & Roser, 2020)"),
-    p("5.0 Findings: "),
+    p(strong("5.0 Findings"),": "),
     p("1. Is climate change caused by humans?"),
     p("According to our data analysis, we concluded that climate change is 
       caused by humans. The chart tells us that CO2 emission is increasing, 
@@ -167,7 +167,7 @@ report_page <- tabPanel(
       of reduced greenhouse gas emissions occur on the same timescale as the 
       political decisions that lead to those reductions. It¡¯s never too late to 
       take actions."),
-    p("6.0 Discussion: "),
+    p(strong("6.0 Discussion"),": "),
     p("Our goal of the project is to investigate the relationship between global 
       temperature and carbon emission. Global warming is a highly concerned topic 
       in the world for so many years. Global warming is important since it helps 
@@ -185,14 +185,14 @@ report_page <- tabPanel(
       situation. For example, developed countries like American counts most of 
       carbon dioxide emissions. They need to insist sustainable development 
       instead of exploiting endlessly. "),
-    p("7.0 Conclusion: "),
+    p(strong("7.0 Conclusion "),":"),
     p("There is a positive relationship between global temperature and CO2 emission. 
       To reduce global warming, we need to carry out environmental friendly measures 
       in a long run."),
-    p("Acknowledgements:"),
+    p(strong("Acknowledgements"),":"),
     p("We would like to thank our teaching assistant Akshita 
       Gundavarapu for giving us suggestions on this topic."),
-    p("References:"),
+    p(strong("References"),":"),
     p("1. 30, R. C.N., Cho, R., Wingham, K., Ament, J., Andrea, Alex, Gary, & 
     Leinberger, B. (2018, January 18). Six tough questions about climate change.
     State of the Planet. Retrieved February 3, 2022, from 
@@ -211,7 +211,7 @@ report_page <- tabPanel(
     data. Kaggle. Retrieved February 5, 2022, from https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv"),
     p("6.Hannah Ritchie and Max Roser (2020) - 'CO2? and Greenhouse Gas Emissions'. 
     Published online at OurWorldInData.org. Retrieved from: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions"),
-    p("Appendix A: Questions: Can we add more data when we do the project?")
+    p(strong("Appendix A"),": Questions: Can we add more data when we do the project?")
     
   )
 )
