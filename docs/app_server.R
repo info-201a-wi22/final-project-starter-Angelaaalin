@@ -83,7 +83,7 @@ server <- function(input,output){
      select(year, year_ave, Country)
    
    plot_data <- data %>% 
-     filter(Country %in% input$country)
+     filter(Country %in% input$temp_country)
    p <- ggplot(
      data = plot_data,
      mapping = aes(x = as.numeric(year), y = year_ave, color = Country)

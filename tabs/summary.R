@@ -5,10 +5,10 @@ data = read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv
 country_select <- unique(data$Country)
 
 country_input <- selectInput(
-  inputId = "country",
+  inputId = "temp_country",
   label = "country of Interest",
   choices = country_select,
-  selected = "country",
+  selected = "temp_country",
   multiple = TRUE
 )
 
