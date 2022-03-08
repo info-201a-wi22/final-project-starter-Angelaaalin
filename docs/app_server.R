@@ -57,9 +57,10 @@ server <- function(input,output){
    globaltemp7 <- globaltemp7 %>% 
      filter(Country == input$country)
    plot2 <- ggplot(data = globaltemp7)+
-     geom_point(mapping = aes(x = dt,
+     geom_point(mapping = aes(x = as.Date(dt),
                             y = AverageTemperature))+
-     labs( x = "Month", y = "Average Temperature")
+     labs( x = "Year", y = "Average Temperature(celsius)")+
+     theme_classic()
  })
  
 #plot3
@@ -67,10 +68,10 @@ server <- function(input,output){
    temp_state_plot <- temp_state %>%
      filter(State == input$State)
    plot3 <- ggplot(data = temp_state_plot) +
-     geom_point(mapping = aes(x = dt,
+     geom_point(mapping = aes(x = as.Date(dt),
                               y = AverageTemperature)) +
-     labs(x = "Date", y = "Average Temperature") +
-     theme(axis.text.x = element_text(angle = 90))
+     labs(x = "Date", y = "Average Temperature(celsius)") +
+     theme_classic()
  })
 
 #country temperature
