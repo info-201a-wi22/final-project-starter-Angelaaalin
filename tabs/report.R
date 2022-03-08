@@ -19,7 +19,7 @@ report_page <- tabPanel(
     problems caused by climate change affect our daily life. Finally there 
     will be more natural disasters. To address the question, we will make use of
     the dataset: Climate Change, and analyze how the temperature changed overtime."),
-    p("Keywords: climate change, temperature, emission, development"),
+    p(strong("Keywords"),": climate change, temperature, emission, development"),
     p(strong("1.0 Introduction"),":"),
     p("Our project is to investigate the relationship between global temperature 
     and carbon emission. We will use the data about carbon dioxide emission and 
