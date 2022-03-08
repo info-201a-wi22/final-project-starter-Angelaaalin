@@ -16,17 +16,18 @@ report_page <- tabPanel(
     will be more natural disasters. To address the question, we will make use of
     the dataset: Climate Change, and analyze how the temperature changed overtime."),
     p("Keywords: climate change, temperature, emission, development"),
-    p("1.0 Introduction: Our project is to investigate the relationship between 
-      global temperature and carbon emission. We will use the data about carbon 
-      dioxide emission and average annual temperature to discuss the possible 
-      factors. We will analyze how industry development impacts carbon dioxide 
-      emissions and mainly focus on the differences between cities, countries, 
-      and U.S states. Also, we want to figure out if human activities are a 
-      critical element of climate change. In addition to the data analysis, we 
-      are going to design some questions and use the answers to build up a 
-      deeper understanding of this issue. This project can help us clarify how 
-      carbon dioxide affects global temperature, increase awareness of climate 
-      change, and demonstrate the solutions for decreasing global warming. "),
+    p("1.0 Introduction:"),
+    p("Our project is to investigate the relationship between global temperature 
+    and carbon emission. We will use the data about carbon dioxide emission and 
+    average annual temperature to discuss the possible factors. We will analyze
+    how industry development impacts carbon dioxide emissions and mainly focus 
+    on the differences between cities, countries, and U.S states. Also, we want 
+    to figure out if human activities are a critical element of climate change.
+    In addition to the data analysis, we are going to design some questions and 
+    use the answers to build up a deeper understanding of this issue. This 
+    project can help us clarify how carbon dioxide affects global temperature, 
+    increase awareness of climate change, and demonstrate the solutions for 
+    decreasing global warming. "),
     p("2.0 Design Situation:"),
     p("1. The concern of the topic is climate change, which is related to the 
       environment study domain. The key elements in this topic are the emission 
@@ -87,7 +88,8 @@ report_page <- tabPanel(
       know that people's activities are the major factor of climate change. 
       Therefore, whether the actions we have taken are useful to address the 
       environment problems is really important."),
-    p("4.0 The Dataset: We have found two credible datasets that are potentially 
+    p("4.0 The Dataset:")
+    p("We have found two credible datasets that are potentially 
       useful to us. One is the global land temperature data which we obtained from
       Kagglen online community for data scientists. It contains the temperature 
       data (by month) from 1750 to 2015. There are five sub-sheets categorized 
@@ -126,16 +128,8 @@ report_page <- tabPanel(
       goods and do not include the 'Statistical differences' column.
       (Ritchie & Roser, 2020)"),
     p("5.0 Findings: "),
-    p("1. Is climate change caused by humans?"),
-    p("According to our data analysis, we concluded that climate change is caused by humans. The chart tells us that CO2 emission is increasing, especially there is a surge in the twentieth century. Twentieth century was defined as the modern era when World war, nuclear power, and technology took place. At that time, people started to make development in industry which would increase CO2 emission largely. Therefore, the increase of global CO2 emission is a result of human development."),
-    p("2. How has global warming affected the world so far?"),
-    p("We also analyzed the relationship between global CO2 emission and global temperature. As global CO2 emission, global temperatures also increased over the past centuries. Therefore, global warming caused the rise of temperature. Global warming is changing weather patterns and disrupting the usual balance of nature such as rising ocean, hotter temperatures, increased drought, and more health risks. Global warming brings a lot of changes to the whole world."),
-    p("3. Will the actions we take today be enough to forestall the direct impacts of climate change? Or is it too little too late?"),
-    p("To reduce the negative impacts of global warming, the key is to be environmentally friendly. For example, most of our electricity and heat are powered by coal, oil, and gas which are causes of CO2 emissions. Choosing an energy-efficient electric appliance will reduce the effects. The report of NASA said that humans have caused major climate changes to happen already, and we have set in motion more changes still. However, if we stopped emitting greenhouse gases today, the rise in global temperatures would begin to flatten within a few years. Temperatures would then plateau but remain well-elevated for many, many centuries. There is a time lag between what we do and when we feel it, but that lag is less than a decade. While the effects of human activities on Earth's climate to date are irreversible on the timescale of humans alive today, every little bit of avoided future temperature increases results in less warming that would otherwise persist for essentially forever. The benefits of reduced greenhouse gas emissions occur on the same timescale as the political decisions that lead to those reductions. It’s never too late to take actions."),
     p("6.0 Discussion: "),
-    p("Our goal of the project is to investigate the relationship between global temperature and carbon emission. Global warming is a highly concerned topic in the world for so many years. Global warming is important since it helps determine future climate expectations which is closely associated with our lives. Even though some people know global warming exists, they don't know specifically about its causes and effects. Our findings can help them know more about this significant crisis and aware of that global warming is not a short-term phenomenon that we need to fight in a long term. Besides, our research can promote more development of preventing global warming and faster measures of environmental activity. If people pay more attention to this long-term fight, it is essential to adopt more environmental measures. To be specific, our analysis of temperature and CO2 emission by geographic location can give governments a more general image about global warming in their locations and carry out policies that suit the remedy to the situation. For example, developed countries like American counts most of carbon dioxide emissions. They need to insist sustainable development instead of exploiting endlessly. "),
     p("7.0 Conclusion: "),
-    p("There is a positive relationship between global temperature and CO2 emission. To reduce global warming, we need to carry out environmental friendly measures in a long run."),
     p("Acknowledgements: We would like to thank our teaching assistant Akshita 
       Gundavarapu for giving us suggestions on this topic."),
     p("References:"),
@@ -153,7 +147,7 @@ report_page <- tabPanel(
     values and beliefs and concern about climate change: A Bayesian longitudinal 
     analysis - quality &amp; quantity. SpringerLink. Retrieved February 4, 2022, 
     from https://link.springer.com/article/10.1007/s11135-017-0538-z#:~:text=Based%20on%20this%20theory%2C%20Corner,positive%20engagement%20with%20climate%20change."),
-    p("5**.Berkley Earth. (2017, May 1). Climate change: Earth surface temperature
+    p("5.Berkley Earth. (2017, May 1). Climate change: Earth surface temperature
     data. Kaggle. Retrieved February 5, 2022, from https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv"),
     p("6.Hannah Ritchie and Max Roser (2020) - 'CO2? and Greenhouse Gas Emissions'. 
     Published online at OurWorldInData.org. Retrieved from: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions"),
