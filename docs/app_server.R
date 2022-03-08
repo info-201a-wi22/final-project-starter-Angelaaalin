@@ -59,7 +59,7 @@ server <- function(input,output){
    plot2 <- ggplot(data = globaltemp7)+
      geom_point(mapping = aes(x = dt,
                             y = AverageTemperature))+
-     labs( x = "Date", y = "Average Temperature")
+     labs( x = "Month", y = "Average Temperature")
  })
  
 #plot3
