@@ -3,7 +3,7 @@
 library("tidyverse")
 library("dplyr")
 
-#Read data#
+# Read data #
 global_temp <- read.csv(file = "../data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_state <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
 temp_by_country <- read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv", header = TRUE, stringsAsFactors = FALSE)

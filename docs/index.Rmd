@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### Audience
-Our project aims to find the relationship betweeen global temperature and the global emission of CO2. We analyzed the data about the change of global temperature and CO2 emission. We found that the average global temperature was increasing from 18th century to 21th century, and the carbon emission was also increasing at the same time. To find whether climate change is caused by humans, we speficfied our analysis in the U.S. We compared the u.s average temperature from 1990 to 2010 and create a chropleth map of the latest average temperature by state. Our audience will be the governments who can carry out policies and the people who care about climate change. 
+Our project aims to find the relationship between global temperature and the global emission of CO2. We analyzed the data about the change of global temperature and CO2 emission. We found that the average global temperature was increasing from 18th century to 21th century, and the carbon emission was also increasing at the same time. To find whether climate change is caused by humans, we speficfied our analysis in the U.S. We compared the u.s average temperature from 1990 to 2010 and create a chropleth map of the latest average temperature by state. Our audience will be the governments who can carry out policies and the people who care about climate change. 
 
 ### Report
 #Code name: 
