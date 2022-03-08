@@ -13,7 +13,7 @@ report_page <- tabPanel(
     p("INFO-201: Technical Foundations of Informatics - 
     The Information School - University of Washington"),
     p("Date: Winter 2022"),
-    p("Abstract:")
+    p("Abstract:"),
     p("Our main question is how the emission of CO2 influences the 
     earth's temperature. This question is important because environmental 
     problems caused by climate change affect our daily life. Finally there 
