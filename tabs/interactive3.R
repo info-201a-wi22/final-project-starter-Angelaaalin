@@ -4,7 +4,7 @@ library("plotly")
 library("shiny")
 
 interactive_3 <- tabPanel(
-  "Interactive 3",
+  "Interactive Page 3",
   titlePanel("Temperature Changes by States"),
   sidebarLayout(
     sidebarPanel(

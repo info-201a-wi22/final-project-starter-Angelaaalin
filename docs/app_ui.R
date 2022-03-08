@@ -13,6 +13,8 @@ ui <- navbarPage("Climate Change",
                  intro_page,
                  interactive_1,
                  interactive_2,
-                 interactive_3
+                 interactive_3,
+                 summary_page,
+                 report_page
                 )
 
