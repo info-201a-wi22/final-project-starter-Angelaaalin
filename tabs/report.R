@@ -88,7 +88,7 @@ report_page <- tabPanel(
       know that people's activities are the major factor of climate change. 
       Therefore, whether the actions we have taken are useful to address the 
       environment problems is really important."),
-    p("4.0 The Dataset:")
+    p("4.0 The Dataset:"),
     p("We have found two credible datasets that are potentially 
       useful to us. One is the global land temperature data which we obtained from
       Kagglen online community for data scientists. It contains the temperature 
