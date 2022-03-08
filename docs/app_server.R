@@ -4,6 +4,7 @@ library("dplyr")
 library("ggplot2")
 library("plotly")
 library("stringr")
+source("../source/Global_Temperature_Overview.R")
 #Page1
 co2 <- read.csv("../data/annual-co-emissions-by-region.csv", header = TRUE,
                 stringsAsFactors = FALSE)
@@ -37,6 +38,8 @@ temp_state <- df %>%
 
 
 server <- function(input,output){
+#into
+  output$intro_image <- renderPlot(show_global_temp())
 #plot1 
   output$plot1 <- renderPlotly({
     co2 <- co2 %>% 
