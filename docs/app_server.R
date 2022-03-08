@@ -69,7 +69,8 @@ server <- function(input,output){
    plot3 <- ggplot(data = temp_state_plot) +
      geom_point(mapping = aes(x = dt,
                               y = AverageTemperature)) +
-     labs(x = "Date", y = "Average Temperature")
+     labs(x = "Date", y = "Average Temperature") +
+     theme(axis.text.x = element_text(angle = 45))
  })
 }
 
