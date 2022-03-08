@@ -128,8 +128,62 @@ report_page <- tabPanel(
       goods and do not include the 'Statistical differences' column.
       (Ritchie & Roser, 2020)"),
     p("5.0 Findings: "),
+    p("According to our data analysis, we concluded that climate change is 
+      caused by humans. The chart tells us that CO2 emission is increasing, 
+      especially there is a surge in the twentieth century. Twentieth century 
+      was defined as the modern era when World war, nuclear power, and 
+      technology took place. At that time, people started to make development 
+      in industry which would increase CO2 emission largely. Therefore, the 
+      increase of global CO2 emission is a result of human development."),
+    p("2. How has global warming affected the world so far?"),
+    p("We also analyzed the relationship between global CO2 emission and global 
+      temperature. As global CO2 emission, global temperatures also increased
+      over the past centuries. Therefore, global warming caused the rise of 
+      temperature. Global warming is changing weather patterns and disrupting
+      the usual balance of nature such as rising ocean, hotter temperatures, 
+      increased drought, and more health risks. Global warming brings a lot of 
+      changes to the whole world."),
+    p("3. Will the actions we take today be enough to forestall the direct 
+      impacts of climate change? Or is it too little too late?"),
+    p("To reduce the negative impacts of global warming, the key is to be 
+      environmentally friendly. For example, most of our electricity and heat 
+      are powered by coal, oil, and gas which are causes of CO2 emissions. 
+      Choosing an energy-efficient electric appliance will reduce the effects. 
+      The report of NASA said that humans have caused major climate changes to 
+      happen already, and we have set in motion more changes still. However, 
+      if we stopped emitting greenhouse gases today, the rise in global 
+      temperatures would begin to flatten within a few years. Temperatures 
+      would then plateau but remain well-elevated for many, many centuries. 
+      There is a time lag between what we do and when we feel it, but that lag 
+      is less than a decade. While the effects of human activities on Earth's 
+      climate to date are irreversible on the timescale of humans alive today, 
+      every little bit of avoided future temperature increases results in less 
+      warming that would otherwise persist for essentially forever. The benefits
+      of reduced greenhouse gas emissions occur on the same timescale as the 
+      political decisions that lead to those reductions. It¡¯s never too late to 
+      take actions."),
     p("6.0 Discussion: "),
+    p("Our goal of the project is to investigate the relationship between global 
+      temperature and carbon emission. Global warming is a highly concerned topic 
+      in the world for so many years. Global warming is important since it helps 
+      determine future climate expectations which is closely associated with our 
+      lives. Even though some people know global warming exists, they don't know 
+      specifically about its causes and effects. Our findings can help them know
+      more about this significant crisis and aware of that global warming is not 
+      a short-term phenomenon that we need to fight in a long term. Besides, our 
+      research can promote more development of preventing global warming and faster 
+      measures of environmental activity. If people pay more attention to this 
+      long-term fight, it is essential to adopt more environmental measures. 
+      To be specific, our analysis of temperature and CO2 emission by geographic 
+      location can give governments a more general image about global warming 
+      in their locations and carry out policies that suit the remedy to the 
+      situation. For example, developed countries like American counts most of 
+      carbon dioxide emissions. They need to insist sustainable development 
+      instead of exploiting endlessly. "),
     p("7.0 Conclusion: "),
+    p("There is a positive relationship between global temperature and CO2 emission. 
+      To reduce global warming, we need to carry out environmental friendly measures 
+      in a long run."),
     p("Acknowledgements: We would like to thank our teaching assistant Akshita 
       Gundavarapu for giving us suggestions on this topic."),
     p("References:"),
