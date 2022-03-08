@@ -4,13 +4,17 @@ report_page <- tabPanel(
   "Report",
   titlePanel("Report"),
   mainPanel(
-    p("Project Title: Relationship between global temperature and carbon emission "),
-    p("Authors: Angela Lin, alin28@uw.edu; Ningrui Yang, yangning@uw.edu; 
+    p("Project Title:"),
+    p("Relationship between global temperature and carbon emission "),
+    p("Authors:"),
+    p("Angela Lin, alin28@uw.edu; Ningrui Yang, yangning@uw.edu; 
       Yujia Zhai, yzhai@uw.edu; Ruyi Liu, rliu3@uw.edu"),
-    p("Affiliation: INFO-201: Technical Foundations of Informatics - 
+    p("Affiliation:"),
+    p("INFO-201: Technical Foundations of Informatics - 
     The Information School - University of Washington"),
     p("Date: Winter 2022"),
-    p("Abstract:Our main question is how the emission of CO2 influences the 
+    p("Abstract:")
+    p("Our main question is how the emission of CO2 influences the 
     earth's temperature. This question is important because environmental 
     problems caused by climate change affect our daily life. Finally there 
     will be more natural disasters. To address the question, we will make use of
@@ -128,6 +132,7 @@ report_page <- tabPanel(
       goods and do not include the 'Statistical differences' column.
       (Ritchie & Roser, 2020)"),
     p("5.0 Findings: "),
+    p("1. Is climate change caused by humans?"),
     p("According to our data analysis, we concluded that climate change is 
       caused by humans. The chart tells us that CO2 emission is increasing, 
       especially there is a surge in the twentieth century. Twentieth century 
@@ -184,7 +189,8 @@ report_page <- tabPanel(
     p("There is a positive relationship between global temperature and CO2 emission. 
       To reduce global warming, we need to carry out environmental friendly measures 
       in a long run."),
-    p("Acknowledgements: We would like to thank our teaching assistant Akshita 
+    p("Acknowledgements:"),
+    p("We would like to thank our teaching assistant Akshita 
       Gundavarapu for giving us suggestions on this topic."),
     p("References:"),
     p("1. 30, R. C.N., Cho, R., Wingham, K., Ament, J., Andrea, Alex, Gary, & 
