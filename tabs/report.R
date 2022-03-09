@@ -164,9 +164,8 @@ report_page <- tabPanel(
       climate to date are irreversible on the timescale of humans alive today, 
       every little bit of avoided future temperature increases results in less 
       warming that would otherwise persist for essentially forever. The benefits
-      of reduced greenhouse gas emissions occur on the same timescale as the 
-      political decisions that lead to those reductions. It¡¯s never too late to 
-      take actions."),
+      of reduced greenhouse gas emissions occur on the same timescale as the political 
+      decisions that lead to those reductions. It¡¯s never too late to take actions."),
     p(strong("6.0 Discussion"),": "),
     p("Our goal of the project is to investigate the relationship between global 
       temperature and carbon emission. Global warming is a highly concerned topic 
@@ -182,9 +181,9 @@ report_page <- tabPanel(
       To be specific, our analysis of temperature and CO2 emission by geographic 
       location can give governments a more general image about global warming 
       in their locations and carry out policies that suit the remedy to the 
-      situation. For example, developed countries like American counts most of 
+      situation.For example, developed countries like American counts most of 
       carbon dioxide emissions. They need to insist sustainable development 
-      instead of exploiting endlessly. "),
+      instead of exploiting endlessly."),
     p(strong("7.0 Conclusion "),":"),
     p("There is a positive relationship between global temperature and CO2 emission. 
       To reduce global warming, we need to carry out environmental friendly measures 

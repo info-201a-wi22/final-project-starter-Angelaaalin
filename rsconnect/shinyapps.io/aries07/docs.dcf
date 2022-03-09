@@ -1,0 +1,14 @@
+name: docs
+title:
+username:
+account: aries07
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5807309
+bundleId: 5659022
+url: https://aries07.shinyapps.io/docs/
+when: 1646788846.23799
+lastSyncTime: 1646788846.23799
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: index.Rmd

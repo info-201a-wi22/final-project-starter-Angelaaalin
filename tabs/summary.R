@@ -1,6 +1,6 @@
 library("shiny")
 
-data = read.csv("../data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv")
+data = read.csv("data/gloabl_temp_archive/GlobalLandTemperaturesByCountry.csv")
 
 country_select <- unique(data$Country)
 

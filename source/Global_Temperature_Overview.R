@@ -4,7 +4,7 @@ library("stringr")
 
 
 show_global_temp <- function() {
-  global_temp <- read.csv("../data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
+  global_temp <- read.csv("data/gloabl_temp_archive/GlobalTemperatures.csv", header = TRUE, stringsAsFactors = FALSE)
   
   
   year_average_temp <- global_temp %>% 

@@ -25,3 +25,4 @@ interactive_1 <- tabPanel(
     )
   )
 )
+

@@ -3,12 +3,12 @@ library("shiny")
 
 #Source Page
 
-source("../tabs/interactive1.R")
-source("../tabs/interactive2.R")
-source("../tabs/interactive3.R")
-source("../tabs/introduction.R")
-source("../tabs/summary.R")
-source("../tabs/report.R")
+source("tabs/interactive1.R")
+source("tabs/interactive2.R")
+source("tabs/interactive3.R")
+source("tabs/introduction.R")
+source("tabs/summary.R")
+source("tabs/report.R")
 
 #App UI
 ui <- navbarPage("Climate Change",
@@ -19,4 +19,5 @@ ui <- navbarPage("Climate Change",
                  summary_page,
                  report_page
                 )
+
 

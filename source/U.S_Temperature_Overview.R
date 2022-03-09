@@ -4,7 +4,7 @@ library("dplyr")
 library("mapproj")
 
 # Read data
-temp_by_state <- read.csv(file = "../data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
+temp_by_state <- read.csv(file = "data/gloabl_temp_archive/GlobalLandTemperaturesByState.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Select the latest data of average temperature in the U.S
 new_data <- temp_by_state %>%

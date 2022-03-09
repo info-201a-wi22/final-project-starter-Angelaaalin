@@ -1,0 +1,13 @@
+name: docs
+title: docs
+username:
+account: aries07
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5807309
+bundleId: 5658134
+url: https://aries07.shinyapps.io/docs/
+when: 1646773056.67392
+lastSyncTime: 1646773056.67392
+asMultiple: FALSE
+asStatic: FALSE
