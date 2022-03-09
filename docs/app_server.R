@@ -38,8 +38,9 @@ temp_state <- df %>%
 
 
 server <- function(input,output){
-#into
+#intro
   output$intro_image <- renderPlot(show_global_temp())
+
 #plot1 
   output$plot1 <- renderPlotly({
     co2 <- co2 %>% 

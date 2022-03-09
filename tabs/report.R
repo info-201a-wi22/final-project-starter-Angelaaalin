@@ -165,7 +165,7 @@ report_page <- tabPanel(
       every little bit of avoided future temperature increases results in less 
       warming that would otherwise persist for essentially forever. The benefits
       of reduced greenhouse gas emissions occur on the same timescale as the political 
-      decisions that lead to those reductions. It¡¯s never too late to take actions."),
+      decisions that lead to those reductions. It's never too late to take actions."),
     p(strong("6.0 Discussion"),": "),
     p("Our goal of the project is to investigate the relationship between global 
       temperature and carbon emission. Global warming is a highly concerned topic 
@@ -211,6 +211,5 @@ report_page <- tabPanel(
     p("6.Hannah Ritchie and Max Roser (2020) - 'CO2? and Greenhouse Gas Emissions'. 
     Published online at OurWorldInData.org. Retrieved from: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions"),
     p(strong("Appendix A"),": Questions: Can we add more data when we do the project?")
-    
   )
 )

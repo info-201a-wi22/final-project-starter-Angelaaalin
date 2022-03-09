@@ -5,10 +5,9 @@ account: aries07
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5807309
-bundleId: 5659022
+bundleId: 5659246
 url: https://aries07.shinyapps.io/docs/
-when: 1646788846.23799
-lastSyncTime: 1646788846.23799
+when: 1646794846.97088
+lastSyncTime: 1646794846.97088
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: index.Rmd
